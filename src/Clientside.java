@@ -12,7 +12,7 @@ public class Clientside {
 
     public static void main(String[] args) {
 
-        int port = 6868;
+        int port = 6000;
 
         try (Socket socket = new Socket("localhost", port)) {
 
